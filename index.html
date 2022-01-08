@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    
+    <title>A DEV CTRL</title>
+</head>
+
+<script>
+
+    function showmodalryan() {
+        var element = document.getElementById("modal-ryan");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodalryan () {
+        var element = document.getElementById("modal-ryan");
+        element.classList.remove("show-modal");
+    }
+
+    
+    function showmodaldaniela() {
+        var element = document.getElementById("modal-daniela");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodaldaniela () {
+        var element = document.getElementById("modal-daniela");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodaldayane() {
+        var element = document.getElementById("modal-dayane");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodaldayane () {
+        var element = document.getElementById("modal-dayane");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodalhadassa() {
+        var element = document.getElementById("modal-hadassa");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodalhadassa () {
+        var element = document.getElementById("modal-hadassa");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodalricky() {
+        var element = document.getElementById("modal-ricky");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodalricky () {
+        var element = document.getElementById("modal-ricky");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodaljeferson() {
+        var element = document.getElementById("modal-jeferson");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodaljeferson () {
+        var element = document.getElementById("modal-jeferson");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodalrayane() {
+        var element = document.getElementById("modal-rayane");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodalrayane () {
+        var element = document.getElementById("modal-rayane");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodalstefany() {
+        var element = document.getElementById("modal-stefany");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodalstefany () {
+        var element = document.getElementById("modal-stefany");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodaljefery() {
+        var element = document.getElementById("modal-jefery");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodaljefery () {
+        var element = document.getElementById("modal-jefery");
+        element.classList.remove("show-modal");
+    }
+
+    function showmodaleloisa() {
+        var element = document.getElementById("modal-eloisa");
+        element.classList.add("show-modal");
+    }
+
+    function hidemodaleloisa() {
+        var element = document.getElementById("modal-eloisa");
+        element.classList.remove("show-modal");
+    }
+    
+</script>
+
+<body>
+
+    <header class="background">
+        <div class="cabecalho-titulo">
+            <h1 class="cabecalho-titulo-preto"> A</h1>
+            <h1 class="cabecalho-titulo-laranja"> DEV</h1>
+            <h1 class="cabecalho-titulo-preto"> CTRL</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="team-alinhamento">
+
+            <div class="team-participante-primeira-line">
+                
+                <div class="team-participante-1">
+                    <img class="team-foto" src="imagemequipe/DANIELAGARCIA.png">
+                        <div class="team-escrito">
+                        <h2 class="team-nome">Daniela </br> Garcia</h2>
+                        <h2 class="team-funcao">Time de </br> Comunicação</h2>
+                        <button onclick="showmodaldaniela()" class="team-button">CONTATO</button>
+                            <div class="modal" id="modal-daniela">
+                                <div class="modal-content">
+                                    <span onclick="hidemodaldaniela()">&times;</span>
+                                    <div class="user-icon-linkedin">
+                                        <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                        <h1>/daniela-garcia-490264200</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div class="team-participante-2">
+                     <img class="team-foto" src="imagemequipe/Dayane Aparecida Ferreira_.png">
+                        <div class="team-escrito">
+                        <h2 class="team-nome">Dayane </br> Aparecida</h2>
+                        <h2 class="team-funcao">Dir. </br> Comunicação</h2>
+                        <button onclick="showmodaldayane()" class="team-button">CONTATO</button>
+                        <div class="modal" id="modal-dayane">
+                            <div class="modal-content">
+                                <span onclick="hidemodaldayane()">&times;</span>
+                                <div class="user-icon-linkedin">
+                                    <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                    <h1>/dayane-ferreira-01569b207</h1> 
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+
+                <div class="team-participante-3">
+                    <img class="team-foto" src="imagemequipe/stéfani.png">
+                        <div class="team-escrito">
+                        <h2 class="team-nome">Stéfani </br> Walter</h2>
+                        <h2 class="team-funcao">Dir. de </br> Back-End</h2>
+                        <button onclick="showmodalstefany()" class="team-button">CONTATO</button>
+                        <div class="modal" id="modal-stefany">
+                            <div class="modal-content">
+                                <span onclick="hidemodalstefany()">&times;</span>
+                                <div class="user-icon-linkedin">
+                                    <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                    <h1>/stéfani-walter-889626204</h1> 
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                 </div>
+
+            </div>
+    
+            <div class="team-participante-segunda-line">
+                
+              <div class="team-participante-1">
+
+                    <img class="team-foto" src="imagemequipe/Hadassa Lopes.png">
+                    <div class="team-escrito">
+                    <h2 class="team-nome">Hadassa </br> Lopes</h2>
+                    <h2 class="team-funcao">Time de </br> Design </h2>
+                    <button onclick="showmodalhadassa()" class="team-button">CONTATO</button>
+                        <div class="modal" id="modal-hadassa">
+                            <div class="modal-content">
+                                <span onclick="hidemodalhadassa()">&times;</span>
+                                <div class="user-icon-linkedin">
+                                    <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                    <h1>/Hadassa</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+
+              <div class="team-participante-2">
+                <img class="team-foto" src="imagemequipe/rickelmy-teofilo.png">
+                    <div class="team-escrito">
+                    <h2 class="team-nome">Rickelmy </br> Teófilo</h2>
+                    <h2 class="team-funcao">Dir. de </br> Front-End </h2>
+                    <button onclick="showmodalricky()" class="team-button">CONTATO</button>
+                        <div class="modal" id="modal-ricky">
+                            <div class="modal-content">
+                                <span onclick="hidemodalricky()">&times;</span>
+                                <div class="user-icon-linkedin">
+                                    <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                    <h1>/rickelmyteofilo</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+
+             <div class="team-participante-3">
+                <img class="team-foto" src="imagemequipe/jeferson.png">
+                    <div class="team-escrito">
+                    <h2 class="team-nome">Jeferson </br> Maciel</h2>
+                    <h2 class="team-funcao">Time de </br> Back-end</h2>
+                    <button onclick="showmodaljeferson()" class="team-button">CONTATO</button>
+                        <div class="modal" id="modal-jeferson">
+                            <div class="modal-content">
+                                <span onclick="hidemodaljeferson()">&times;</span>
+                                <div class="user-icon-linkedin">
+                                    <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                    <h1>/jeferson-maciel</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+            </div>
+            
+            <div class="team-participante-terceira-line">
+
+                <div class="team-participante-1">
+                    <img class="team-foto" src="imagemequipe/Jefery.png">
+                        <div class="team-escrito">
+                        <h2 class="team-nome">Jéfery </br> Machado</h2>
+                        <h2 class="team-funcao">Time de </br> Front-End</h2>
+                        <button onclick="showmodaljefery()" class="team-button">CONTATO</button>
+                            <div class="modal" id="modal-jefery">
+                                <div class="modal-content">
+                                    <span onclick="hidemodaljefery()">&times;</span>
+                                    <div class="user-icon-linkedin">
+                                        <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                        <h1>/Jefery</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="team-participante-2">
+                    <img class="team-foto" src="imagemequipe/eloisa.png">
+                         <div class="team-escrito">
+                         <h2 class="team-nome">Eloisa </br> Gomes</h2>
+                         <h2 class="team-funcao">Time de </br> Comunicação</h2>
+                         <button onclick="showmodaleloisa()" class="team-button">CONTATO</button>
+                            <div class="modal" id="modal-eloisa">
+                                <div class="modal-content">
+                                    <span onclick="hidemodaleloisa()">&times;</span>
+                                    <div class="user-icon-linkedin">
+                                        <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                        <h1>/eloísa-gomes-de-oliveira-60714a218/</h1>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                 </div>
+
+                 <div class="team-participante-3">
+                    <img class="team-foto" src="imagemequipe/Rayane Larissa.png">
+                        <div class="team-escrito">
+                        <h2 class="team-nome">Rayane </br> Larissa</h2>
+                        <h2 class="team-funcao">Vice Dir. </br> Comunicação</h2>
+                        <button onclick="showmodalrayane()" class="team-button">CONTATO</button>
+                        <div class="modal" id="modal-rayane">
+                        <div class="modal-content">
+                            <span onclick="hidemodalrayane()">&times;</span>
+                            <div class="user-icon-linkedin">
+                                <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                <h1>/rayane-lima-60a356226</h1>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+
+                    <div class="team-participante-1">
+                        <img class="team-foto" src="imagemequipe/ryanjunio.png">
+                            <div class="team-escrito">
+                            <h2 class="team-nome">Ryan </br> Junio</h2>
+                            <h2 class="team-funcao">Dir. de </br> Design</h2>
+                            <button onclick="showmodalryan()" class="team-button">CONTATO</button>
+                                <div class="modal" id="modal-ryan">
+                                    <div class="modal-content">
+                                        <span onclick="hidemodalryan()">&times;</span>
+                                        <div class="user-icon-linkedin">
+                                            <img class="img-button-linkedin" src="imagemequipe/linkedin.png">
+                                            <h1>/ryanjunio</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+
+            </div>
+
+
+            </div>
+
+            </div>
+        
+    </main>
+
+    <footer class="rodape">
+
+        <img class="line" src="imagemequipe/Line 1.png">
+
+
+    </footer>
+
+</body>
+
+</html>
